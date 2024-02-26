@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">splitwise_clone</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="signup">Sign up</string>
+    <string name="login">Log in</string>
+    <string name="terms_privacypolicy_contact">Terms |  Privacy policy | Contact us</string>
+    <string name="splitwise">Splitwise</string>
+    <string name="Full_name">Full name</string>
+    <string name="email">Your email address</string>
+    <string name="your_password">Your password</string>
+    <string name="password">Password</string>
+    <string name="phone_optional">Phone (optional)</string>
+    <string name="currency">Currency</string>
+    <string name="back">Back</string>
+    <string name="Done">Done</string>
+    <string name="welcome_back_to_splitwise">Welcome back to splitwise</string>
+    <string name="email_address">Email address</string>
+    <string name="Forgot_your_password">Forgot your password?</string>
+    <string name="reset_your_password">Reset your password</string>
+    <string name="enter_your_email_address_we_will_send_your_password">Enter your email address and we\'ll send your password</string>
+    <string name="request_password">Request password</string>
+</resources>
