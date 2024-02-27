@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:gravity="left"
+            android:gravity="start"
             android:padding="20dp"
             android:text="@string/splitwise"
             />
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/Full_name"
             android:padding="20dp"
-            android:textSize="15dp"
+            android:textSize="15sp"
             android:layout_marginTop="20dp"
             />
         <com.google.android.material.textfield.TextInputEditText
@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/email"
             android:padding="20dp"
-            android:textSize="15dp"
+            android:textSize="15sp"
             android:layout_marginTop="20dp"
             />
         <com.google.android.material.textfield.TextInputEditText
@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/password"
             android:padding="20dp"
-            android:textSize="15dp"
+            android:textSize="15sp"
             android:layout_marginTop="20dp"
             />
         <com.google.android.material.textfield.TextInputEditText
@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/phone_optional"
             android:padding="20dp"
-            android:textSize="15dp"
+            android:textSize="15sp"
             android:layout_marginTop="20dp"
             />
         <com.google.android.material.textview.MaterialTextView
@@ -62,7 +62,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:gravity="left"
+            android:gravity="start"
             android:padding="20dp"
             android:text="@string/currency"
             />
@@ -80,8 +80,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="15dp"
-                android:layout_marginRight="10dp"
-                android:backgroundTint="@color/md_theme_scrim"
+                android:layout_marginEnd="10dp"
                 android:text="@string/back"
                 android:textColor="@color/md_theme_onSecondary"/>
             <com.google.android.material.button.MaterialButton
@@ -91,8 +90,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="15dp"
-                android:layout_marginLeft="10dp"
-                android:backgroundTint="@color/md_theme_scrim"
+                android:layout_marginStart="10dp"
                 android:text="@string/Done"
                 android:textColor="@color/md_theme_onSecondary"/>
         </LinearLayout>

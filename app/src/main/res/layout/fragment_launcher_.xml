@@ -51,7 +51,6 @@
             android:padding="15dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:backgroundTint="@color/md_theme_scrim"
             android:text="@string/signup"
             android:textColor="@color/md_theme_onSecondary" />
 
@@ -63,7 +62,6 @@
             android:padding="15dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:backgroundTint="@color/md_theme_scrim"
             android:text="@string/login"
             android:textColor="@color/md_theme_onSecondary" />
 

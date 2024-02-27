@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".HomeActivity">
 
     <LinearLayout
         android:id="@+id/page_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="right"
+        android:gravity="end"
         android:orientation="vertical"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -18,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="@string/splitwise"
-            android:textSize="15dp"
+            android:textSize="15sp"
             android:textStyle="bold"
             android:padding="20dp"
             />
@@ -31,16 +32,23 @@
 
     </LinearLayout>
 
-    <LinearLayout
+    <FrameLayout
         android:id="@+id/mainPage"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:gravity="center"
-        android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/page_header"
         app:layout_constraintBottom_toBottomOf="parent">
 
-    </LinearLayout>
+    </FrameLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

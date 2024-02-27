@@ -20,4 +20,21 @@
     <string name="reset_your_password">Reset your password</string>
     <string name="enter_your_email_address_we_will_send_your_password">Enter your email address and we\'ll send your password</string>
     <string name="request_password">Request password</string>
+    <string name="Welcome_to_splitwise_groups">Welcome to splitwise groups</string>
+    <string name="Welcome_to_splitwise_friends">Welcome to splitwise friends</string>
+    <string name="Activity">Activity</string>
+    <string name="Account">Account</string>
+    <string name="user_name">Username</string>
+    <string name="user_email">User email</string>
+    <string name="logout">Log out</string>
+    <string name="contact_support">Contact support</string>
+    <string name="faq">FAQ</string>
+    <string name="Help">Help</string>
+    <string name="preferences">Preferences</string>
+    <string name="notificatin_settings">Notification settings</string>
+    <string name="email_settings">Email settings</string>
+    <string name="groups">Groups</string>
+    <string name="friends">Friends</string>
+    <string name="activity">Activity</string>
+    <string name="account">Account</string>
 </resources>
