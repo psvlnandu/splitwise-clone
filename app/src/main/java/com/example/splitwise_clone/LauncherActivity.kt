@@ -6,11 +6,12 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.example.splitwise_clone.databinding.ActivityLauncherBinding
 import com.example.splitwise_clone.fragments.launcher_Fragment
+import com.example.splitwise_clone.friends.tag_head
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
 class LauncherActivity : AppCompatActivity() {
-    private var TAG="splitwise:launcher:"
+    private var TAG= tag_head+"launcher:"
 
     private lateinit var binding: ActivityLauncherBinding
 

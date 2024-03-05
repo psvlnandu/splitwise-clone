@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 import com.example.splitwise_clone.HomeActivity
 import com.example.splitwise_clone.R
 import com.example.splitwise_clone.databinding.FragmentLoginBinding
+import com.example.splitwise_clone.friends.tag_head
 import com.google.firebase.auth.FirebaseAuth
 
 
@@ -19,7 +20,7 @@ class login_Fragment : Fragment() {
 
     private lateinit var auth: FirebaseAuth
 
-    private var TAG="splitwise:login:"
+    private var TAG= tag_head+"login:"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
